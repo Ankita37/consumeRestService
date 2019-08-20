@@ -1,3 +1,11 @@
-<h1>
-  {{title}}
-</h1>
+<div>
+  <h1>
+    Item Details
+  </h1>
+
+  <div *ngFor="let item of items">
+      <span>{{item.name}}</span>
+      <span>{{item.url}}</span>
+  </div>
+
+</div>
